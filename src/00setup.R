@@ -39,3 +39,4 @@ class(gdr_data$Matrix)
 class(gdr_data$Concentration)
 dim(gdr_data)
 
+View(gdr_data)
