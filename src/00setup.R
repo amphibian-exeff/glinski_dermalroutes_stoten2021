@@ -5,11 +5,13 @@ R.Version()$version.string
 library(dplyr, quietly = TRUE, warn.conflicts = FALSE)
 library(knitr, quietly = TRUE, warn.conflicts = FALSE)
 library(ggplot2)
+library(ggpubr)
 library(reshape2)
 library(MASS)
 library(FSA)
 library(car)
 library(rcompanion)
+library(moments)
 
 print("list of loaded packages: ")
 print((.packages()))
